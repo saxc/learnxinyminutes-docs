@@ -82,11 +82,11 @@ fn main() {
     let f: f64 = 1.3f64;
 
     // Type inference
-    Meistens kann der Rust Compiler selbst schlussfolgern, von welchem
-    Typ eine Variable ist, so dass man den Typ nicht explizit angeben muss.
-    In diesem Tutorial werden Typen explizit angegeben, um zu demonstrieren,
-    welche Möglichkeiten es gibt. Wenn man damit vertraut ist, kann man die
-    Typen auch weglassen und die Type Inference hilft dann im Hintergrund.
+    // Meistens kann der Rust Compiler selbst schlussfolgern, von welchem
+    // Typ eine Variable ist, so dass man den Typ nicht explizit angeben muss.
+    // In diesem Tutorial werden Typen explizit angegeben, um zu demonstrieren,
+    // welche Möglichkeiten es gibt. Wenn man damit vertraut ist, kann man die
+    // Typen auch weglassen und die Type Inference hilft dann im Hintergrund.
 
     let implicit_x = 1;
     let implicit_f = 1.3;
